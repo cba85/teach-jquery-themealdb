@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js" defer></script>
+    <script src="app.js" defer></script>
+    <style>
+      body {
+        margin: 0 auto;
+        max-width: 51em;
+        padding: 1em;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      a,
+      a:visited {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The meal DB jQuery</h1>
+
+    <h2>Random</h2>
+
+    <button id="random">🎲 Random recipes</button>
+
+    <h2>Areas</h2>
+
+    <select id="areas-select">
+      <option value="" disabled selected>Select an area...</option>
+    </select>
+
+    <br />
+
+    <div id="results" style="display: none"></div>
+  </body>
+</html>
